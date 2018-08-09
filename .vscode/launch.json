@@ -13,8 +13,8 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Launch Program",
-            "program": "${workspaceFolder}/src/1-hello-world/1-main.js"
+            "name": "hello-express",
+            "program": "${workspaceFolder}/src/1-hello-world/6-server-html.js"
         }
     ]
 }
