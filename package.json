@@ -1,27 +1,37 @@
 {
-  "name": "learn",
-  "version": "1.0.0",
-  "description": "happy coading",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/minooo/node-learn.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/minooo/node-learn/issues"
-  },
-  "homepage": "https://github.com/minooo/node-learn#readme",
-  "devDependencies": {
-    "eslint": "^5.3.0"
-  },
-  "dependencies": {
-    "chalk": "^2.4.1",
-    "express": "^4.16.3",
-    "koa": "^2.5.2"
-  }
+    "name": "learn",
+    "version": "1.0.0",
+    "description": "happy coading",
+    "main": "index.js",
+    "scripts": {
+        "babel": "babel ./src/2-babel -d build",
+        "webpack": "webpack",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/minooo/node-learn.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/minooo/node-learn/issues"
+    },
+    "homepage": "https://github.com/minooo/node-learn#readme",
+    "devDependencies": {
+        "eslint": "^5.3.0"
+    },
+    "dependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-loader": "^7.1.5",
+        "babel-preset-env": "^1.7.0",
+        "babel-preset-react": "^6.24.1",
+        "chalk": "^2.4.1",
+        "express": "^4.16.3",
+        "koa": "^2.5.2",
+        "react": "^16.4.2",
+        "react-dom": "^16.4.2",
+        "uglifyjs-webpack-plugin": "^1.2.7",
+        "webpack": "^3.12.0"
+    }
 }
