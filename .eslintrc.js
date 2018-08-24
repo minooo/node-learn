@@ -9,7 +9,7 @@ module.exports = {
     sourceType: "module"
   },
   rules: {
-    "linebreak-style": ["error", "unix"],
+    "linebreak-style": ["error", "windows"],
     quotes: ["error", "double"],
     semi: ["error", "always"],
     "no-console": 0,
